@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
-import { Separator } from './ui/separator';
 import { 
   Github, 
   Twitter, 
@@ -150,7 +149,7 @@ export function Footer({ onNavigate }: FooterProps) {
               {categories.map((category) => (
                 <li key={category.label}>
                   <button
-                    onClick={() => onNavigate(category.page, category.id)}
+                    onClick={() => onNavigate(category.page)}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
                     {category.label}

@@ -7,7 +7,6 @@ import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 import { Textarea } from './ui/textarea';
 import { 
   Calendar, 
-  User, 
   Clock, 
   Eye,
   Share2,

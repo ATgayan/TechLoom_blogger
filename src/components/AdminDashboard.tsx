@@ -19,7 +19,7 @@ import {
   FileText,
   TrendingUp
 } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+
 
 interface Post {
   id: string;

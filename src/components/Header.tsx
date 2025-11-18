@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, Menu, X } from 'lucide-react';
-import { Button } from './ui/button';
+
 import { Input } from './ui/input';
 
 interface HeaderProps {
@@ -32,7 +32,7 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
             </div>
             <span className="text-xl font-bold text-foreground">TechNova</span>
           </div>
-
+ 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
